@@ -1,0 +1,1 @@
+call pyinstaller --onefile ToolFillInfoSurvey.py

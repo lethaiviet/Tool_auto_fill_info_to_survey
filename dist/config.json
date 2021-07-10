@@ -1,0 +1,49 @@
+{
+    "URL_VIEW_FORM": "https://docs.google.com/forms/d/e/1FAIpQLSdBqQ_YJIP7zM4enptfJFkqdgVn-wqBUBGRLHvLHkLJbFWENw/viewform",
+    "LOCATOR": {
+        "TEXT_BOX": "//div[contains(@data-params, '%s')]/div/div[2]/div/div/div/div/input",
+        "RADIO_BUTTON": "//div[contains(@data-params, '%s')]/div/div[2]/div/div/span/div/div/label/div/div/div[@data-value='%s']"
+    },
+    "ACTIONS": [
+        {
+            "DESCRIPTION": "1. Họ tên nhân viên",
+            "TYPE": "TEXT_BOX",
+            "INPUT_DATA": "Nguyễn Văn A"
+        },
+        {
+            "DESCRIPTION": "2. Mã số nhân viên",
+            "TYPE": "TEXT_BOX",
+            "INPUT_DATA": "123456"
+        },
+        {
+            "DESCRIPTION": "3. Điện thoại liên hệ",
+            "TYPE": "TEXT_BOX",
+            "INPUT_DATA": "123456789"
+        },
+        {
+            "DESCRIPTION": "5. Trong 24 giờ (hoặc 48 giờ nếu ngày khai báo là thứ Hai hàng tuần) qua bạn có tiếp xúc F0/1/2/3 hoặc người nào đó có nguy cơ nhiễm Covid-19 không (tại địa phương hoặc từ nơi khác đến/về)?",
+            "TYPE": "RADIO_BUTTON",
+            "INPUT_DATA": "Không"
+        },
+        {
+            "DESCRIPTION": "7. Trong 24 giờ qua bạn có đến những nơi có nguy cơ cao về Covid-19 không (theo thông báo của CDC)?",
+            "TYPE": "RADIO_BUTTON",
+            "INPUT_DATA": "Không"
+        },
+        {
+            "DESCRIPTION": "9. Nơi bạn ở nằm ngoài, trong, hay bên cạnh khu vực đang tạm phong tỏa?",
+            "TYPE": "RADIO_BUTTON",
+            "INPUT_DATA": "Ngoài"
+        },
+        {
+            "DESCRIPTION": "10. Ngay lúc này, bạn tự đánh giá bản thân thuộc diện an toàn đối với nguy cơ bị lây nhiễm Covid nào theo 3 mức sau:",
+            "TYPE": "RADIO_BUTTON",
+            "INPUT_DATA": "Tuyệt đối an toàn"
+        },
+        {
+            "DESCRIPTION": "12. Ngày tháng năm thực hiện khai báo",
+            "TYPE": "TEXT_BOX",
+            "INPUT_DATA": "today"
+        }
+    ]
+}
