@@ -113,8 +113,7 @@ All fields will be filled automatically as the image below:
 
 ### Built With
 
-* [pandas](https://www.marsja.se/how-to-convert-json-to-excel-python-pandas/) - The lib help to convert JSON data to an Excel file
-* [pyexcel_xlsx](https://pypi.org/project/pyexcel-xlsx/) - A tiny wrapper library to read, manipulate and write data in xlsx
+* [selenium](https://selenium-python.readthedocs.io/) - Selenium is an open-source tool that automates web browsers
 
 ### Prerequisites
 
